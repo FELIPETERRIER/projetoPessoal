@@ -1,0 +1,6 @@
+nav{
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

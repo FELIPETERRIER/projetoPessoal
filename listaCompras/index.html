@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <script src="./script.js" ></script>
+  
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+   
+
+    <nav>
+        <h1>Lista de compras</h1>
+        <button>Comparação</button>
+    </nav>
+    <section>
+        <div name="campos" id="campos" >
+            <input placeholder="Item:" type="text" id="item" name="produto" required />
+            <input placeholder="Quantidade" type="number" id="quantidade" name="quantidade"  required />
+            <select id="medidas">
+                <option value="un">un</option>
+                <option value="kg">kg</option>
+                <option value="g">g</option>                            
+            </select>
+            <input type="text" name="valorProduto"id='valorProduto'>          
+            <input type="text" name="total" id="total" onblur="javascript:calculo()">            
+        </div>
+                
+        <!-- <button name="botao_add" type="button" id="botao_add" class="button" onclick="contar()" value="campos"> oi </button>    -->
+
+    </section>
+
+</body>
+
+
+</html>
